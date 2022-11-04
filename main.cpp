@@ -5,12 +5,9 @@ using namespace std;
 
 int main()
 {
-    string napis;
-    cout<<"Podaj napis: ";
+    string napis="Ala ma kota"
+    string szukaj="kot";
 
-    getline(cin,napis);
-
-    cout<<napis;
 
     return 0;
 }
