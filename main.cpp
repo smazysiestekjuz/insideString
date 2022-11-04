@@ -10,6 +10,8 @@ int main()
 
     size_t pozycja=napis.find(szukaj);
 
-
+    if(pozycja!=string::npos)
+        cout<<"Znaleziono na pozycji: "<<pozycja;
+    else cout<<"Nie znaleziono!";
     return 0;
 }
